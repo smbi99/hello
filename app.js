@@ -25,7 +25,7 @@ if (process.env.PORT) {
 
 var app = express();
 app.get('/', function (req, res) {
-  res.send('Dumb, really Dumb app');
+  res.send('Dumb, really Dumb Dumb app');
 });
 
 app.listen(PORT);
